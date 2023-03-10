@@ -8,7 +8,6 @@
 
             List<double> notas = new List<double>();
 
-
             Console.Write("Informe o número de notas ");
             int numeroMaxNotas = int.Parse(Console.ReadLine());
 

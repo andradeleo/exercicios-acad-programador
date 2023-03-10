@@ -4,14 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Exercício 26 - Fatorial");
-
-            int resultado = 0;;
+            int resultado = 1; // Inicializa o resultado com 1, não com 0.
 
             Console.WriteLine("Informe um número para o cálculo fatorial");
             int numero = int.Parse(Console.ReadLine());
 
-            for ( int i = numero; i >= 1; numero-- )
+            for (int i = numero; i >= 1; i--) // O loop deve decrementar a variável i, não a variável numero.
             {
                 Console.Write(i);
                 resultado *= i;
@@ -23,6 +21,7 @@
             }
 
             Console.Write($" = {resultado}");
+            Console.ReadLine();
         }
                 
      }

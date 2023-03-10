@@ -32,6 +32,7 @@ namespace exercicio27.ConsoleApp
             if (numeroAnterior < numero)
             {
                 Console.Write(a);
+                Console.ReadLine();
             }
 
         }
